@@ -1,11 +1,13 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../assets/Blog-Acadamy-Logo.png" type="image/png">
+    {%load static%}
+    <link rel="icon" href="{% static 'img/Blog-Acadamy-Logo.png' %}" type="image/png">
     <title>Blog Academy</title>
-    <link rel="stylesheet" href="../CSS/Blog.css">
+    <link rel="stylesheet" href="{% static 'CSS/Blog.css' %}">
 </head>
 <body>
 
@@ -13,11 +15,10 @@
     <h1>Blog Académico</h1>
     <nav>
         <ul>
-            <li><a href="./Blog.html">Inicio</a></li>
-            <li><a href="#">Categoría 1</a></li>
+            <li><a href="/login">Categoría 1</a></li>
             <li><a href="#">Categoría 2</a></li>
-            <li><a href="./About.html">Acerca de nosotros</a></li>
-            <li><a href="./Contact.html">Contacto</a></li>
+            <li><a href="./about">Acerca de nosotros</a></li>
+            <li><a href="./contact">Contacto</a></li>
         </ul>
     </nav>
 </header>
