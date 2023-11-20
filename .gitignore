@@ -169,4 +169,5 @@ cython_debug/
 #Ignore Entorno
 entorno/
 /entorno/
-
+Entorno/
+/Entorno/
